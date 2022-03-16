@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Overlock:wght@700&display=swap');
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation{
+    max-width: 1024px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    margin-right: 2.94rem;
+}
+
+.nav-list{
+    margin-bottom: 0;
+}
+
+nav a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.88rem;
+    color: #E36712 !important;
+    cursor: pointer;
+
+}
+
+.home{
+    height: 100vh;
+}
+
+.home-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content{
+    margin-right: 8.609rem;
+}
+
+.home_content p{
+    font-family: 'Overlock', cursive;
+    font-size: 4rem;
+    line-height: 4.88rem;
+    width: 24.703rem;
+    font-weight: 700;
+    height: 11.757rem;
+}
+
+.home_content button{
+    width: 12.319rem;
+    height: 4.106;
+    padding: 1.173rem;
+    border-radius: 0.313rem;
+    background-color: #BC0606;
+    color: white;
+    border: none;
+}
+
+#home-img{
+    
+    animation: rotation 2s infinite linear;
+}
+
+.About_Us{
+    margin-top: 3rem;
+    height: auto;
+}
+
+.about-details{
+    display: flex;
+}
+
+.about_img{
+    margin-right: 15.643rem;
+}
+
+.about_content h2{
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.about_content p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-top: 3rem;
+    line-height: 1.4rem;
+    width: 36.688rem;
+}
+
+.about_content button{
+    width: 9rem;
+    height: 2.625rem;
+    padding: 0.75rem 1.688rem;
+    border-radius: 0.313rem;
+    background-color: #BC0606;
+    color: white;
+    border: none;
+}
+
+.varieties{
+    margin-top: 5.875rem;
+    height: auto;
+}
+
+.varieties h2{
+    text-align: center;
+    margin-bottom: 1.188rem;
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+}
+
+.your-order{
+    margin-top: 3.625rem;
+}
+
+#first{
+    margin: 0;
+}
+
+.your-order h2{
+    text-align: center;
+    font-family:  'Overlock', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 3.063rem;
+}
+
+.pizza_selection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+#pizza-selection{
+    font-family:'Overlock', cursive;
+    font-size: 1.3rem;
+    color: #BC0606;
+}
+
+.headline{
+    text-align: center;
+}
+
+
+form{
+    margin-right: 11.75rem;
+}
+
+.order_button{
+    width: 9rem;
+    height: 2.625rem;
+    border-radius: 0.75rem;
+    margin-top: 2.688rem;
+    background-color: #FFE4A3;
+    color: #BC0606;
+    border: none;
+   margin-left: 40%;
+}
+
+.order-info p{
+    font-family:  'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.order-content{
+    display: none;
+}
+
+#none{
+    margin-top: 0;
+}
+
+.order-content{
+    padding-top: 1rem;
+    /* display: none; */
+}
+
+.btn{
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#pizza_total{
+    text-align: center;
+    margin-bottom: 1.188rem;
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+}
+
+#delivery-info{
+    display: none;
+}
+
+footer{
+    margin-top: 4.625rem;
+}
+
+.foo{
+    display: flex;
+}
+
+.foo-1{
+    margin-left: 16.188rem;
+}
+
+.socials{
+    margin-top: 1.125rem;
+}
+
+.socials i{
+    margin-right: 2.5rem;
+}
+
+.foo-2{
+    margin-left: 14.007rem;
+}
+
+.foo-2 p{
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+#p-foo{
+    text-align: center;
+    margin-top: 2.813rem;
+    color: #FFC58A;
+    font-size: 0.875rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
